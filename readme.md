@@ -1,5 +1,5 @@
 
-<span id="selector">一、selector</span>
+### <span id="selector">一、selector</span>
 
 #### （一）类选择
 可同时包含**多个连续**的类选择器。
@@ -42,3 +42,8 @@ div + p {color:red}
 ```
 
 #### （四）伪类
+链接伪类 :link 未访问 :visited 已访问
+动态伪类 :hover 悬浮 :active 点击 :focus 焦点
+**焦点**不一定**悬浮**
+
+### <span id="selector">一、selector</span>
