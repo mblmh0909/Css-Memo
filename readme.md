@@ -1,44 +1,44 @@
 
-<span id="selector">Ò»¡¢selector</span>
+### <span id="selector">ä¸€ã€selector</span>
 
-#### £¨Ò»£©ÀàÑ¡Ôñ
-¿ÉÍ¬Ê±°üº¬**¶à¸öÁ¬Ðø**µÄÀàÑ¡ÔñÆ÷¡£
+#### ï¼ˆä¸€ï¼‰ç±»é€‰æ‹©
+å¯åŒæ—¶åŒ…å«**å¤šä¸ªè¿žç»­**çš„ç±»é€‰æ‹©å™¨ã€‚
 ```css
 .fisrt.second{background:red}
 ```
-ÒÔÏÂÐÎÊ½¶¼Æ¥Åä
+ä»¥ä¸‹å½¢å¼éƒ½åŒ¹é…
 ```html
 <div class="first second third"></div>
 <div class="second first third"></div>
 ```
-#### £¨¶þ£©ÊôÐÔÑ¡Ôñ
-¿ÉÁ¬ÐøÃ¿¸öÊôÐÔ¶¼ÓÃ[]°ü¹ü£¬¿ÉÆ¥Åä
+#### ï¼ˆäºŒï¼‰å±žæ€§é€‰æ‹©
+å¯è¿žç»­æ¯ä¸ªå±žæ€§éƒ½ç”¨[]åŒ…è£¹ï¼Œå¯åŒ¹é…
 ```css
 a[title~="book"][href^="book"]:hover{color:red}
 ```
-| ·ûºÅ | ÒâÒå |
+| ç¬¦å· | æ„ä¹‰ |
 | ---- | ---- |
-| = | Ò»Ñù |
-| ~= | ÓÐÍêÕûµ¥´Ê £¨Èçtitile="book 1"£©|
-| \|= | ÄÜÆ¥Åä-Ç°ÏàÍ¬»ò=£¨en£¬en-£© |
-| ^= | ÒÔ¡­¡­¿ªÊ¼  |
-| $= | ÒÔ¡­¡­½áÊø |
-| *= | °üº¬ |
+| = | ä¸€æ · |
+| ~= | æœ‰å®Œæ•´å•è¯ ï¼ˆå¦‚titile="book 1"ï¼‰|
+| \|= | èƒ½åŒ¹é…-å‰ç›¸åŒæˆ–=ï¼ˆenï¼Œen-ï¼‰ |
+| ^= | ä»¥â€¦â€¦å¼€å§‹  |
+| $= | ä»¥â€¦â€¦ç»“æŸ |
+| *= | åŒ…å« |
 
-#### £¨Èý£©×ÓÑ¡ÔñÆ÷ºÍÏàÁÚÑ¡ÔñÆ÷
-ËùÓÐ×ÓÔªËØ
+#### ï¼ˆä¸‰ï¼‰å­é€‰æ‹©å™¨å’Œç›¸é‚»é€‰æ‹©å™¨
+æ‰€æœ‰å­å…ƒç´ 
 ``` css
 div p{color:red}
 ```
-Ö±½Ó×ÓÔªËØ
+ç›´æŽ¥å­å…ƒç´ 
 ``` css
 div>p{color:red}
 div > p {color:red}
 ```
-ÏàÁÚÔªËØ
+ç›¸é‚»å…ƒç´ 
 ``` css
 div+p{color:red}
 div + p {color:red}
 ```
 
-#### £¨ËÄ£©Î±Àà
+#### ï¼ˆå››ï¼‰ä¼ªç±»
