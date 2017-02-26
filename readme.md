@@ -59,35 +59,25 @@ div + p {color:red}
 
 ### 二、显示
 #### （一）行内和块
-***
 	1.inline左至右，不独占；block上至下，独占。
 	2.文字表单行内，类型表明块。
 	3.内联不能设置盒模型属性。
 	4.inline-block，不独占行但可设置宽度、高度、margin、padding
 	5.inline-block后元素间有间隙解决方法有标签间去空格、font-size: 0等。
-***
 #### （二）盒模型
 #####1.盒模型
-***
 	1.IE6宽高设置后包含了margin、border于padding。
 	2.内联设置宽高及垂直方向margin无意义，垂直方向的padding会引起怪异显示禁用。
-***
 #####2.排序
-***
 	1.从上开始顺时针
 	2.上下、左右
 	3.上、左右、下
-***
 #####3.折叠
-***
 	1.只有block的垂直margin才有折叠，不存在padding与margin折叠
 	2.float元素的margin永远不折叠
 	3.如果overflow不是visible，将不与子元素折叠
 	4.绝对定位不折叠。
 	5.根元素不折叠。
-***
 #### （三）定位
 #####1.static
-***
 z-index越大，越xi
-***
