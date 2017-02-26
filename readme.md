@@ -79,5 +79,15 @@ div + p {color:red}
 	4.绝对定位不折叠。
 	5.根元素不折叠。
 #### （三）定位
-#####1.static
-z-index越大，越xi
+#####位置
+	1.static和relative、absolute、fixed。
+	2.relative相对于**正常定位**偏移
+	3.absolute相对于**第一个父定位元素**偏移
+	4.fixed相对于**窗口**偏移
+#####垂直
+	z-index同层级的z-index才会比大小。
+	以下代码尽管内层div的z-index aaa层大于bbb层但是外层z-index bbb层大于aaa层，所以是bbb层覆盖aaa层
+```html
+<div style="position:absolute;z-index:3"><div style="position:absolute;z-index:1000;background:red">aaa</div></div>
+<div style="position:absolute;z-index:30"><div style="position:absolute;z-index:10;background:blue">bbb</div></div>
+```
